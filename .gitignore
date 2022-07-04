@@ -1,0 +1,10 @@
+*.swp
+*.class
+*.log
+makefile
+*.DS_Store
+
+build
+'build (copy).xml'
+/nbproject/private
+/*/nbproject/private

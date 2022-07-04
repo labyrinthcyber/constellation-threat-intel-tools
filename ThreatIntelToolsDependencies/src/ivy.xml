@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+    <info organisation="au.gov.asd.tac" module="threat"/>
+    
+    <configurations defaultconfmapping="*->default,master">
+        <conf name="compile" description="Compile-time dependencies" visibility="public"/>
+        <conf name="runtime" description="Runtime dependencies" visibility="public" extends="compile"/>
+        <conf name="test" description="Test dependencies" visibility="public" extends="runtime"/>
+        <conf name="provided" description="Provided dependencies" visibility="public"/>
+    </configurations>
+
+    <dependencies defaultconf="runtime">
+        <dependency org="io.ipinfo" name="ipinfo-api" rev="2.1" />
+        <dependency org="com.google.code.gson" name="gson" rev="2.9.0" />
+        
+        <!-- Exclusions -->
+        <exclude org="javax.media" module="jai_core"/>
+        <exclude org="javax.media" module="jai_codec"/>
+        <exclude org="javax.media" module="jai_widget"/>
+        <exclude type="source" ext="jar" conf="*"/>
+        <exclude type="javadoc" ext="jar" conf="*"/>
+        <exclude type="license" ext="txt" conf="*"/>
+    </dependencies>
+</ivy-module>
