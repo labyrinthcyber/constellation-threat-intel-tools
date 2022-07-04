@@ -8,3 +8,7 @@ build
 'build (copy).xml'
 /nbproject/private
 /*/nbproject/private
+
+ThreatIntelToolsDependencies/nbproject/project_old.xml
+ThreatIntelToolsDependencies/release/modules/ext/
+
