@@ -1,6 +1,6 @@
 # Constellation Threat Intel Tools
 
-The Threat Intel plugins build upon the functionality of Constellation (https://github.com/constellation-app/constellation), a graph-focused analytical application, to enable threat intel analysts to efficiently and effectively enrich and pivot on data during their investigations.  
+The Threat Intel plugins build upon the functionality of [Constellation](https://github.com/constellation-app/constellation), a graph-focused analytical application, to enable threat intel analysts to efficiently and effectively enrich and pivot on data during their investigations.  
   
 ## Plugins  
 

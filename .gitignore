@@ -12,3 +12,4 @@ build
 ThreatIntelToolsDependencies/nbproject/project_old.xml
 ThreatIntelToolsDependencies/release/modules/ext/
 
+/dist/
