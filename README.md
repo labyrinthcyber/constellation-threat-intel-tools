@@ -1,19 +1,19 @@
 # Constellation Threat Intel Tools
 
-The Threat Intel plugins build upon the functionality of Constellation (https://github.com/constellation-app/constellation), a graph-focused analytical application, to enable cyber threat intel analysts to efficiently enrich data during their investigations.  
+The Threat Intel plugins build upon the functionality of Constellation (https://github.com/constellation-app/constellation), a graph-focused analytical application, to enable threat intel analysts to efficiently and effectively enrich and pivot on data during their investigations.  
   
 ## Plugins  
 
 ### IPInfo  
   
-  IPInfo.io is a service that provides accurate IP address data including geolocation, WHOIS information, and domains hosted. 
+  IPInfo.io is a service that provides accurate IP address data including geolocation, WHOIS information, and domains hosted. You can read more about IPInfo's Java implementation of their API at [their GitHub page](https://github.com/ipinfo/java).  
 
-  This plugin will return geolocation and WHOIS information and add it to the IP node properties. It will also add any domains associated to the IP as a node graph node, with a relation to the original IP address node.
+  This plugin will return geolocation and WHOIS information and add it to the IP node properties. It will also add any domains associated to the IP as a node graph node, with a relation to the original IP address node.  
   
 ### Shodan  
-  Shodan.io is a search engine that allows you to search for information on internet-connected devices using various search filters. 
+  Shodan.io is a search engine that allows you to search for information on internet-connected devices using various search filters. More information on the Shodan API can be found [here.](https://developer.shodan.io/api)  
   
-  This plugin will return open ports and geolocation information and add them to the IP node properties. You can also choose to have the ports added to the graph as new related nodes, rather than as a node property.
+  This plugin will return open ports and geolocation information and add them to the IP node properties. You can also choose to have the ports added to the graph as new related nodes, rather than as a node property.  
 
 ### ThreatCrowd
   ThreatCrowd is "a search engine for threats" run by AlienVault. 
