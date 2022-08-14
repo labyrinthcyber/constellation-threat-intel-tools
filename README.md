@@ -15,6 +15,11 @@ The Threat Intel plugins build upon the functionality of Constellation (https://
   
   This plugin will return open ports and geolocation information and add them to the IP node properties. You can also choose to have the ports added to the graph as new related nodes, rather than as a node property.
 
+### ThreatCrowd
+  ThreatCrowd is "a search engine for threats" run by AlienVault. 
+
+  This plugin will allow you to search IPs and domains and return known associated domains, subdomains, email addresses, and file hashes. See the [ThreatCrowd API](https://github.com/AlienVault-OTX/ApiV2) documentation on GitHub for more information. 
+
 ## Setup  
   
   API keys for IPInfo and Shodan should be placed in ~/.config/constellation/constellation.conf:  
